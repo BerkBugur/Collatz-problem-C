@@ -3,8 +3,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-//Fork yapýsý aðaç yapýsý olduðundan linux iþletim sisteminde çalýþýyor.
-//H.Berk Buður - 1721012012 - Ý.Ö
+//Fork yapısı ağaç yapısı olduğundan linux işletim sisteminde çalışıyor.
+//H.Berk Buğur - 1721012012 - İ.Ö
 
 int main()
 {
