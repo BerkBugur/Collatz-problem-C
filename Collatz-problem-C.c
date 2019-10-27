@@ -3,8 +3,8 @@
 #include <sys/types.h>
 #include <unistd.h>
 
-//Fork yapısı ağaç yapısı olduğundan linux işletim sisteminde çalışıyor.
-//H.Berk Buğur - 1721012012 - İ.Ö
+//Fork yapÃ½sÃ½ aÃ°aÃ§ yapÃ½sÃ½ olduÃ°undan linux iÃ¾letim sisteminde Ã§alÃ½Ã¾Ã½yor.
+//H.Berk BuÃ°ur - 1721012012 - Ã.Ã–
 
 int main()
 {
@@ -16,7 +16,7 @@ int main()
  
        if(sayi < 0)
     {
-          printf("Pozitif sayi giriniz ! 0'dan büyük olmalı \n");
+          printf("Pozitif sayi giriniz ! 0'dan bÃ¼yÃ¼k olmalÃ½ \n");
       scanf("%d", &sayi);
     }
  
@@ -24,7 +24,7 @@ int main()
  
     if(pid < 0)
     {
-      printf("Child Process oluşturulamadı.\n");
+      printf("Child Process oluÃ¾turulamadÃ½.\n");
       exit(-1);
     }
  
